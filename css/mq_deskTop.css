@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+
+#spNavi{
+	display: none;
+}
+
+#pcNavi nav.scrollNavi,
+#address
+{
+	right: 0px;
+}
+
+header.root section,
+div.fotorama,
+#container {
+    margin: 0;
+	padding: 0;
+}
+
+div.fotorama{
+	height: auto;
+}
+
+#snsBlc .fb_iframe_widget{
+	margin-right: 4px;
+	display: block;
+	float: left;
+}
+
+/* CONTENTS ++++++++++++++++++ */
+

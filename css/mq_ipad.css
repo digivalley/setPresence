@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+
+#spNavi{
+	display: none;
+}
+
+/* SNS ++++++++++++++++++ */
+
+#snsBlc .fb_iframe_widget{
+	margin-right: 4px;
+	display: block;
+	float: left;
+}
+
+/* CONTENTS ++++++++++++++++++ */
+
+
+/* ASIDE +++++++++++++++ */

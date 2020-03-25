@@ -1,0 +1,101 @@
+
+/* MEDIAQUERY INDEX PAGE +++++++++++++++++++++++++++++++++ */
+
+/* PC ++++++++++++++++++++++ */
+
+@media only screen and (min-width: 1200px){
+	
+	main:before{
+		content:"PC:1200< MAX";
+		position: fixed;
+		bottom: 4px;
+		right: 4px;
+		padding: 4px;
+		font-weight: bold;
+		background: #0059B3;
+		color: #fff;
+		opacity:0.6;
+		z-index: 999999999;
+	}/* */ 
+	
+	
+}
+
+
+/* PC ++++++++++++++++++++++ */
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px){
+	
+	
+	main:before{
+		content:"TABLET LAND:1024 < 1199";
+		position: fixed;
+		bottom: 4px;
+		right: 4px;
+		padding: 4px;
+		font-weight: bold;
+		background: #0059B3;
+		color: #fff;
+		opacity:0.6;
+		z-index: 999999999;
+	}/* */ 
+
+}	
+
+/* PC ++++++++++++++++++++++ */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+	
+	
+	main:before{
+		content:"TABLET PORT:768 < 1023";
+		position: fixed;
+		bottom: 4px;
+		right: 4px;
+		padding: 4px;
+		font-weight: bold;
+		background: #0059B3;
+		color: #fff;
+		opacity:0.6;
+		z-index: 999999999;
+	}/* */ 
+
+}	
+
+
+/* SMARTPHONE START +++++++++++++++ */
+
+@media only screen  and (min-width: 480px) and (max-width: 767px){
+	
+	main:before{
+		content:"SP LAND: 480 < 767";
+		position: fixed;
+		bottom: 4px;
+		right: 4px;
+		padding: 4px;
+		font-weight: bold;
+		background: #0059B3;
+		color: #fff;
+		opacity:0.6;
+		z-index: 999999999;
+	}/* */ 
+
+}
+
+
+@media only screen and (max-width: 479px){
+	
+	main:before{
+		content:"SP PORT: MIN < 479";
+		position: fixed;
+		bottom: 4px;
+		right: 4px;
+		padding: 4px;
+		font-weight: bold;
+		background: #0059B3;
+		color: #fff;
+		opacity:0.6;
+		z-index: 999999999;
+	}/* */ 
+
+}

@@ -1,0 +1,152 @@
+@charset "utf-8";
+
+@media only screen and (min-width: 564px) and (max-width: 767px){
+
+}
+
+#mainVisual{
+	margin-bottom: 12px;
+}
+
+#pcNavi{
+	display: none;
+}
+
+.onlyPc{
+	display: none;
+}
+ 
+header.root{
+	margin: 0px auto;
+	padding: 0;
+}
+
+header.root section{
+	margin: 0 auto;
+	padding: 0 8px 8px;
+	width: 100%;
+	height: auto;
+	background: #fff;
+	border-top: 8px solid #50a121;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	z-index: 1000;
+}
+
+header.root section h1{
+	margin: 0;
+	width: 300px;
+	min-width: 300px;
+	
+	height: 38px;
+	vertical-align: middle;
+	text-indent: -9999px;
+	background: url("images/logo.png") no-repeat left center;
+	float: left;
+	background-size: 100% auto !important;
+	-webkit-background-size: 100% auto !important;
+    -moz-background-size: 100% auto !important;
+
+}
+
+header section:after{
+	content:" ";
+	height: 0;
+	display: block;
+	clear: both;
+}
+header section .wrapper{
+	padding-top: 8px;
+	width: 32px;
+	height: 48px;
+	float: right;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;/*  */
+}
+
+header button{
+	display: block;
+	padding: 8px;
+	width: 32px;/*  */
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;/*  */
+	background : -webkit-gradient(linear, left top, left bottom, from(#50a121), to(#458c1d));
+    background : -webkit-linear-gradient(top, #50a121, #458c1d);
+	background: linear-gradient(to bottom, #50a121, #458c1d);
+}
+
+header button .icon-bar{
+    display: block;
+	margin: 0 0 4px;
+	width: 16px;
+    height: 2px;
+	background-color: #F5F5F5;
+}
+
+header button .icon-bar.end{
+	margin: 0;
+}
+
+
+header.root #spNavi nav.scrollNavi{
+	position: absolute;
+	left: 0;
+	top: -156px;
+	z-index: 999;
+	width: 100%;
+	transition: all 0.3s cubic-bezier(0.42, 0, 0.52, 1);
+    -webkit-transition: all 0.3s cubic-bezier(0.42, 0, 0.52, 1);
+    -ms-transition: all 0.3s cubic-bezier(0.42, 0, 0.52, 1);
+	border-bottom: 8px #50a121 solid;
+}
+header.root #spNavi nav.scrollNavi.scrolldown{
+	position: fixed;
+	display: block;
+	-webkit-transform: translate(0,212px);
+	-ms-transform: translate(0,212px);
+	transform: translate(0,216px);
+}
+
+header.root #spNavi nav.scrollNavi a{
+	display: block;
+	padding: 0 0 0 8px;
+	height: 40px;
+	font-size: 16px;
+	color: #4d4d4d;
+	font-weight: bold;
+	line-height: 40px;
+	background: rgba(255,255,255,0.8);
+	background : -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+    background : -webkit-linear-gradient(top, #fff, #eee);
+	background: linear-gradient(to bottom, #fff, #eee);
+}
+
+header.root #spNavi nav.scrollNavi a:hover{
+	color: #50a121;
+	background: rgba(255,255,255,0.9);
+}
+
+header.root #spNavi nav.scrollNavi a span{
+	display: block;
+	padding-left: 64px;
+	max-width: 468px;
+}
+
+header.root #spNavi nav.scrollNavi.bdn{
+	border-bottom: 0;
+}
+
+#spNavi nav.scrollNavi a:active{
+	color: #50a121;
+}
+
+header.root #spNavi nav.scrollNavi em{
+	display: none;
+}
+
+

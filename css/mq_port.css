@@ -1,0 +1,133 @@
+@charset "utf-8";
+
+#regulation{
+	padding: 0 8px;
+}
+
+#mainVisual{
+	margin-bottom: 8px;
+}
+
+#pcNavi{
+	display: none;
+}
+
+.pcOnly,
+.onlyPc
+{
+	display: none;
+}
+
+body{
+	padding: 0;
+}
+
+header.root
+{
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	min-width: 320px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+header.root.fixed{
+	position: fixed;
+	top: -12px;
+	z-index: 999;
+	-ms-transform: translate(0,56px);
+	-webkit-transform: translate(0,56px);
+	transform: translate(0,56px);
+	box-shadow: 2px 0 2px rgba(0, 0, 0, 0.9);
+}
+
+/* HEADER NAVI ++++++++++++++++++ */
+
+header section .wrapper{
+	padding-top: 8px;
+	width: 32px;
+	height: auto;
+	float: right;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;/*  */
+}
+
+header button{
+	display: block;
+	padding: 8px;
+	width: 32px;/*  */
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;/*  */
+	background : -webkit-gradient(linear, left top, left bottom, from(#50a121), to(#458c1d));
+    background : -webkit-linear-gradient(top, #50a121, #458c1d);
+	background: linear-gradient(to bottom, #50a121, #458c1d);
+}
+
+header button .icon-bar{
+    display: block;
+	margin: 0 0 4px;
+	width: 16px;
+    height: 2px;
+	background-color: #F5F5F5;
+}
+
+header button .icon-bar.end{
+	margin: 0;
+}
+
+header.root section h1{
+	width: 168px;
+	height: 38px;
+	line-height: 48px;
+	vertical-align: middle;
+	text-indent: -9999px;
+	background: url("./images/logo_sp.png") no-repeat 0 center;
+	background-size: 168px auto !important;
+	-webkit-background-size: 168px auto !important;
+    -moz-background-size: 168px auto !important;
+
+}
+
+header.root nav.nav-collapse a{
+	display: block;
+	padding: 0 0 0 8px;
+	height: 40px;
+	font-size: 16px;
+	color: #4d4d4d;
+	font-weight: bold;
+	line-height: 40px;
+	background : -webkit-gradient(linear, left top, left bottom, from(#fff), to(#eee));
+    background : -webkit-linear-gradient(top, #fff, #eee);
+	background: linear-gradient(to bottom, #fff, #eee);
+}
+
+header.root nav.nav-collapse a:hover{
+	color: #00a8e2;
+	background: rgba(255,255,255,1);
+}
+
+header.root nav.nav-collapse.bdn{
+	border-bottom: 0;
+}
+
+nav.nav-collapse a:active{
+	color: #50a121;
+}
+
+header.root nav.nav-collapse em{
+	display: none;
+}
+
+/* #spNavi #nav-collapse{
+	position: absolute;
+}
+ */
+/* CONTENTS ++++++++++++++++++ */
+
+/* ASIDE ++++++++++++++++++ */

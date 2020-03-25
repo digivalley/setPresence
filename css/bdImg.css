@@ -1,0 +1,445 @@
+@charset "utf-8";
+
+#scrollContents article#aboutus dl dt .postscript span{
+	display: block;
+	width: 200px;
+	float: right;
+}
+
+html body#top main div#container div#primary section#scrollContents article#aboutus.clm2 dl{
+	margin-bottom: 20px;
+}
+
+section article h1{
+	margin-bottom: 16px;
+	padding-left: 10%;
+	height: 36px;
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 36px;
+	color: #000;
+	background: transparent url('images/capIcon.png') 0 0 no-repeat;
+	background-size: 9.2% auto !important;
+	-webkit-background-size: 9.2% auto !important;
+    -moz-background-size: 9.2% auto !important;
+
+}
+
+/* NEWS ++++++++++++ */
+
+#news dl.extra {
+	display: table;
+	width: 100%;
+	color: #a34c2a;;
+}
+#news dl.extra  dt,
+#news dl.extra  dd
+{
+	display: table-cell;
+	vertical-align: top;
+}
+#news  dl.extra dt{
+	width: 104px;
+}
+#news  dl.extra:last-child dd{
+	text-align: right;
+	color: #000;
+}
+#newsBox p.tar{text-align: right;}
+
+		
+section#news article h1{
+	margin-bottom: 16px;
+	padding-left: 11%;
+	height: 68px;
+	font-size: 28px;
+	font-weight: bold;
+	line-height: 36px;
+	color: #000;
+	background: transparent url('images/info_icon2.png') left center no-repeat;
+	background-size: 10% auto  !important;
+	-webkit-background-size: 10% auto  !important;
+    -moz-background-size:  10% auto  !important;
+
+}
+
+section#news article h1.single{
+	padding-left: 16%;
+	height: 36px;
+	background: transparent url('images/capIconNews.png') left top no-repeat;
+	background-size: auto 100%  !important;
+	-webkit-background-size:auto 100%  !important;
+    -moz-background-size:  auto 100%  !important;
+}
+
+section article {
+	font-size: 14px;
+}
+
+section article h2{
+	margin-bottom: 16px;
+	padding-left: 4px;
+	font-size: 16px;
+	line-height: 18px;
+	color: #000;
+	border-left: #5ea832 solid 4px;
+}
+
+/* BLOCK LAYOUT +++++++++++++++++++++++ */
+
+section#news dl{
+	display: table;
+	margin-bottom: 8px;
+	width: 100%;
+}
+
+section#news dl dt,
+section#news dl dd
+{
+	display: table-cell;
+	vertical-align: top;
+}
+
+section#news dl dt{
+	width: 92px;
+
+}
+
+.pageTop{
+	padding-bottom: 4px;
+	color: #50a121;
+	text-align: right;
+	font-size: 14px;
+	line-height: 14px;
+	cursor: pointer;
+	border-bottom: #b3b3b3 solid 1px;
+}
+
+.pageTop:hover{
+	color: #52d2ff;
+}
+
+#mainVisual{
+	/* border: #e5e5e5 solid 1px; */
+	/* border: #cccccc solid 1px; */
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+
+#mainVisual .img_vrs{
+	padding-top: 37%;
+	width: 100%;
+	height: 0;
+	background: transparent url('../images/topVisual_vrs.png') 0 0 no-repeat;
+	background-size:  cover;
+	-webkit-background-size:  cover;
+    -moz-background-size:   cover;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+.fotorama .slideimage{
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.newsBox .table{
+	border: #b3b3b3 solid 1px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+section#news p.strong{
+	font-size: 16px;
+}
+
+section#news p.notice{
+	color: #df5e71;
+	color: #b7612f;
+}
+
+section#news .newsBox{
+	position: relative;
+}
+
+section#news .newsBox .table dl{
+	display: table;
+	margin: 0;
+	width: 100%;
+	border-bottom: #b3b3b3 solid 1px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	
+}
+
+section#news .newsBox .table dl:last-child{
+	border: none;
+}
+
+section#news .newsBox .table dl dt,
+section#news .newsBox .table dl dd
+{
+	display: table-cell;
+	padding: 4px 8px;
+	vertical-align: middle;
+	line-height: 20px;
+}
+
+section#news .newsBox .table dl dt{
+	width: 32%;
+	min-width: 192px;
+	background: #ebf6de;
+}
+
+section#news .newsBox .table dl dd{
+}
+
+section#news .newsBox img{
+	width: 260px;
+	height: auto;
+}
+
+section#news .newsBox p{
+	margin: 0 0 16px 0;
+	padding: 0;
+}
+
+section#news .newsBox p{
+	margin: 0 0 16px 0;
+	padding: 0;
+}
+
+section#news .newsBox p.postscript{
+	position: absolute;
+	right: 40px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+section#news .newsBox p em{
+	display: inline-block;
+	color: #b7612f;
+	font-weight: bold;
+}
+
+section#news .newsBox p em{
+	display: inline-block;
+}
+
+section#news .newsBox p em .br{
+	display: none;
+}
+
+.fz16{
+	font-size: 16px;
+}
+
+section#news .newsBox p.emergency{
+	margin-bottom: 32px;
+	padding: 16px;
+	color: #a00;
+	font-weight: bold;
+	border: #a00 solid 1px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	
+}
+
+@media only screen and (min-width: 928px){
+	.undw480{
+		display: none;
+	}
+	section#news article h1.single{
+		padding-left: 16%;
+		height: 36px;
+		background: transparent url('images/capIconNews.png') left top no-repeat;
+		background-size: auto 100%  !important;
+		-webkit-background-size:auto 100%  !important;
+		-moz-background-size:  auto 100%  !important;
+	}
+}
+
+@media only screen and (max-width: 927px) and (min-width: 768px){
+	.undw480{
+		display: none;
+	}
+	section#news article h1.single{
+		padding-left: 20%;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.undw480{
+		display: block;
+	}
+	section#news article h1.single{
+	margin-bottom: 16px;
+	padding-top: 0px;
+	padding-left: 60px;
+	height: 48px;
+	font-size: 22px;
+	line-height: 26px;
+	background: transparent url('images/info_icon2.png') left center no-repeat;
+	background-size: auto 100%  !important;
+		background-size: auto 100%  !important;
+		-webkit-background-size:auto 100%  !important;
+		-moz-background-size:  auto 100%  !important;
+	}
+	
+	section#news .newsBox img.mt60{
+		margin-top: 60px;
+	}
+
+}
+
+
+
+@media only screen and (max-width: 1023px){
+
+	section article h1{
+		padding-left: 9%;
+		height: 28px;
+		font-size: 24px;
+		line-height: 28px;
+		background-size: 8% auto !important;
+		-webkit-background-size: 8% auto !important;
+		-moz-background-size: 8% auto !important;
+	}
+	
+}
+
+@media only screen and (max-width: 767px){
+
+	section article h1{
+		padding-left: 9%;
+		height: 28px;
+		font-size: 20px;
+		line-height: 28px;
+		background-size: 8% auto !important;
+		-webkit-background-size: 8% auto !important;
+		-moz-background-size: 8% auto !important;
+	}
+
+	section#news article h1{
+		padding-left: 20%;
+		height: 48px;
+		font-size: 20px;
+		line-height: 24px;
+		background: transparent url('images/capIconNews.png') left center no-repeat;
+		background-size: 18% auto !important;
+		-webkit-background-size: 18% auto !important;
+		-moz-background-size: 18% auto !important;
+	}
+}
+
+@media only screen and (max-width: 479px){
+
+	section article h1{
+		padding-left: 52px;
+		height: 24px;
+		font-size: 18px;
+		line-height: 24px;
+		background-size: 46px auto !important;
+		-webkit-background-size: 46px auto !important;
+		-moz-background-size: 46px auto !important;
+	}
+
+	section#news article h1{
+		padding-left: 26%;
+		height: 48px;
+		font-size: 18px;
+		line-height: 24px;
+		background-size: 24% auto !important;
+		-webkit-background-size: 24% auto !important;
+		-moz-background-size: 24% auto !important;
+		background-position: left center;
+	}
+
+	section article h2{
+		margin-bottom: 8px;
+		font-size: 14px;
+		line-height: 16px;
+		color: #000;
+		
+	}
+
+	section#news dl{
+		display: block;
+		margin-bottom: 8px;
+		width: 100%;
+	}
+
+	section#news dl dt,
+	section#news dl dd
+	{
+		display: block;
+		vertical-align: top;
+	}
+
+	section#news dl dt{
+		width: 100%;
+	}
+
+	section#news dl dd{
+		margin-left: 0;
+	}
+
+	#scrollContents article#aboutus dl dt{
+		margin-bottom: 20px;
+	}
+
+	#mainVisual .img_vrs{
+		padding-top: 47%;
+		width: 100%;
+		height: 0;
+		background: transparent url('../images/topVisual_vrs_sp.png') 0 0 no-repeat;
+		background-size:  contain;
+		-webkit-background-size:  contain;
+		-moz-background-size:   contain;
+
+	}
+	
+		
+	section#news .newsBox p em{
+		display: inline-block;
+	}
+		
+	section#news .newsBox p em.box2{
+		display: block;
+	}
+
+	.undw479{
+		display: block;
+	}
+		
+	section#news .newsBox p em .br{
+		display: inline;
+	}
+
+}
+
+@media only screen and (min-width: 480px){
+
+	.undw479{
+		display: none;
+	}
+	
+		
+	section#news .newsBox p em{
+		display: inline;
+	}
+		
+	section#news .newsBox p em .br{
+		display: none;
+	}
+
+}

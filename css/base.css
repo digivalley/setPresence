@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS BASE-------copyright 201/**/6 Studio Happyvalley.*/
+/* base color : #50a121 */
+
+*{
+	margin:0;
+	padding:0;
+	text-decoration:none;
+	outline: none
+}
+
+ h1,h2,h3,
+ dl
+ {
+	margin: 0;
+}
+
+address,
+article,
+aside,
+button,
+details, 
+dd,
+dl,
+dt,
+figcaption, 
+figure,
+footer,
+header,
+hgroup,
+menu,
+main,
+nav,
+section
+{
+	display:block;
+}
+
+main{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 940px;
+}
+
+table{
+    border-collapse:collapse;
+	border:none;
+	word-wrap:break-all;
+	/*word-break:break-all;*/
+	display:block;
+}
+
+ul,
+li
+{
+	list-style-type:none;
+}
+
+img{ 
+	border: none;
+}
+
+a, a:link, a:visited{ 
+	text-decoration:none;
+	outline: none;
+	color: #777777;
+}
+
+a:hover{
+	color: #111111;
+}
+
+em, 
+strong
+{
+	text-decoration:none;
+	font-style:normal;
+	font-weight: normal;
+}
+
+.clearFix:after{
+	content:" ";
+	display:block;
+	clear:both;
+	height:0;
+}
+
+.none{
+	display:none;
+}
+
+
+.error{
+	margin:0 0 20px;
+	color: #cc4a65;
+	display:block;
+	float:left;
+	margin:0 0 0 4px;
+}
+
+.text4img{
+	display: none;
+}
+
+/* BODY +++++++++++++++++++++++++ */
+body{
+	margin: 0 auto;
+	min-width: 320px;
+	font-family:"メイリオ", Meiryo, "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Std W3",Osaka, 
+	"Trebuchet MS",Verdana,Arial,Helvetica, sans-serif;
+	-webkit-text-size-adjust: none;
+	color: #6e6f70;
+	font-size: 12px;
+}
+
+/*COLORING+++++++++++++++++*/
+
+.red{
+	color:#ff0000;
+}
+
+.blue{
+	color:#0066cc;
+}
+
+.green{
+	color:#008735;
+}
+
+.orange{
+	color: #f7931e;
+}
+
+.black{
+	color:#000;
+}
+
+/* STYLING+++++++++++++++++*/
+
+.bold{
+	font-weight:bold;
+}
+
+.tar{
+	text-align: right;
+}
+
+.tal{
+	text-align: left;
+}
+
+/* TOP +++++++++++++++++*/
+
+button,
+input{
+	border:none;
+}
+
+div.input input{
+	display: none;
+	vertical-align:middle;
+}
+
+/* RETINA OVERRIDES +++++++++++++++++
+@media 
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+
+}*/

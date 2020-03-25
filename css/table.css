@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+
+#scrollContents article p{
+	margin: 0 0 24px;
+	padding: 0;
+}
+
+#scrollContents article table
+{
+	margin-bottom: 8px;
+	margin-bottom: 0;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+#scrollContents article table tr,
+#scrollContents article table tbody{
+	width: 100%;
+}
+
+#scrollContents article table th,
+#scrollContents article table td{
+	padding: 4px 8px;
+	text-align: center;
+	border: #b3b3b3 solid 1px;
+}
+
+#scrollContents article table.onlypc .subject{
+	width: 18%;
+	width: 200px;
+	text-align: center;
+}
+
+#scrollContents article table.onlysp .subject{
+	width: auto;
+	text-align: left;
+	width: auto;
+}
+
+#scrollContents article table.onlysp{
+	display: none;
+}
+
+.credit{
+	margin-bottom: 32px;
+}
+em.checkMark{
+	position: relative;
+	top: 1px;
+	font-size: 132%;
+	
+}
+
+#scrollContents article table.tm2{
+	margin-bottom: 16px;
+}
+
+#scrollContents article table.tm2 .subject span{
+	display: block;
+	font-size: 80%;
+	line-height: 1.2;
+}
+
+.tm2Title{
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 767px){
+
+	#scrollContents article table.onlysp{
+		display: table;
+	}
+
+	#scrollContents article table.onlypc{
+		display: none;
+	}
+	
+	.onlysp p{
+		margin: 0 0 8px;
+		padding: 0;
+	}
+}
